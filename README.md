@@ -9,6 +9,8 @@ INDEX.HTML: Added Bootstrap, JS, CSS, Reset, jQuery, and Viewport.
 
 Began pseudo coding.
 
+Finished preliminary HTML and site structure.
+
 20170523
 
 INDEX.HTML: Created.

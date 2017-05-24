@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Crystals Game</title>
+	<title>Crystal Master</title>
 
 	<!-- Reset -->
 	<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
@@ -24,37 +24,96 @@
 <body>
 
 <!-- Pseudo code -->
-	<!-- Crystals Header: Should be col-lg-12 with no offset-->
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<header>
+					<h3>Welcome to Crystal Master!</h3>
+				</header>
+			</div>
+		</div>
+	</div>
 
-	<!-- Section with background -->
+	<section id="backgroundSplash">
 
-		<!-- Div container -->
+		<div class="container">
 
-			<!-- Row 1 -->
-			<!-- Column 6: Should be col-lg-10 offset 1 -->
-				<!-- Contains text instructions -->
+		<!-- Instructions -->
+			<div class="row">
+				<div class="col-lg-10, col-lg-offset-1">
+					<article id="instructions">
+						<p>How to play:</p>
 
-			<!-- Row 2 -->
-				<!-- Column 1: Should be col-lg-4 offset 1-->
-					<!-- Contains Red and Blue Crystal buttons -->
-				<!-- Column 2: Should be col-lg-4 offset 1-->
-					<!-- Contains Yellow and Green Crystal buttons -->
+						<p>There are four crystals which, when clicked, add a score to your total. Each crystal is assigned a random value at the start of each game.</p>
 
-			<!-- Row 3 -->
-				<!-- Column 3: Should be col-lg-4 offset 1 -->
-					<!-- Contains Random Number text box -->
-				<!-- Column 4: Should be col-lg-4 offset 1 -->
-					<!-- Contains Current Score text box -->
+						<p>You are given a random number at the start of the game which you must match in order to win.</p>
 
-			<!-- Row 4 -->
-				<!-- Column 5: Should be col-lg-10 offset 1 -->
-					<!-- Contains Win/Loss Counter -->
+						<p>Don't go too high! You will lose the game if your total score goes above the random number given to you at the start of the game.</p>
+					</article>
+				</div>
+			</div>
 
-		<!-- End Dix -->
+		<!-- Red and Blue gem buttons -->
+			<div class="row">
+				<div class="col-lg-4, col-lg-offset-1">
+					<div class="gems">
+						Red and Blue
+					</div>
+				</div>
 
-	<!-- End Section -->
+			<!-- Yellow and Green gem buttons -->
+				<div class="col-lg-4, col-lg-offset-1">
+					<div class="gems">
+						Yellow and Green
+					</div>
+				</div>
+			</div>
 
-	<!-- Crystals Footer: Should be col-lg-12 with no offset -->
+		<!-- Random number score -->
+			<div class="row">
+				<div class="col-lg-4, col-lg-offset-1">
+					<div class="startScore">
+						Random Number
+					</div>
+				</div>
+
+			<!-- Current player score -->
+				<div class="col-lg-4, col-lg-offset-1">
+					<div class="playerScore">
+						Current Score
+					</div>
+				</div>
+			</div>
+
+		<!-- Win counter -->
+			<div class="row">
+				<div class="col-lg-4, col-lg-offset-1">
+					<div class="winCount">
+						Win count
+					</div>
+				</div>
+
+			<!-- Loss counter -->
+				<div class="col-lg-4, col-lg-offset-1">
+					<div class="loseCount">
+						Loss count
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+	</section>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<fotter>
+					© Copyright 2017 Jonathan Thompson
+				</footer>
+			</div>
+		</div>
+	</div>
 
 </body>
 </html>
