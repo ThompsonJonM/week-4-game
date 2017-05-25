@@ -1,0 +1,123 @@
+/*CSS Styling*/
+
+* {
+	box-sizing: border-box;
+}
+
+/*Global IDs*/
+
+header {
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	padding: 30px 0 0 0;
+	font-weight: bold;
+}
+
+h4 {
+	text-align: center;
+}
+
+/*Classes*/
+
+.myHeader {
+	background-color: #eeeeee;
+/*	margin: 0 0 75px 0;*/
+}
+
+.instructionsDiv {
+	padding: 100px 0 0 0;
+}
+
+.gemsDiv {
+	text-align: center;
+}
+
+.rngDiv {
+	text-align: center;
+}
+
+.scoreDiv {
+	text-align: center;
+}
+
+.winDiv {
+	text-align: center;
+}
+
+.lossDiv {
+	text-align: center;
+}
+
+.myFooter {
+	background-color: #eeeeee;
+	height: 75px;
+/*	margin: 75px 0 0 0;*/
+}
+
+.pageContent {
+	background-color: #ffffff;
+	opacity: 0.75;
+	height: 600px;
+}
+
+.pageRow {
+
+}
+
+/*Individual IDs*/
+
+#backgroundSplash {
+	background-image: url(../images/background.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 1170px 700px;
+}
+
+#gemRed {
+	width: 100px;
+	height: 100px;
+}
+
+#gemBlue {
+	width: 100px;
+	height: 100px;
+}
+
+#gemYellow {
+	width: 100px;
+	height: 100px;
+}
+
+#gemGreen {
+	width: 100px;
+	height: 100px;
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 980px) {
+	
+	#backgroundSplash {
+		background-size: 750px 575px;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+	
+	#backgroundSplash {
+		background-size: 750px 575px;
+	}
+
+}
+
+@media screen and (max-width: 640px) {
+	
+	#backgroundSplash {
+		background-size: 640px 575px;
+	}
+
+}

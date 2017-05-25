@@ -57,8 +57,6 @@ $(document).ready(function() {
 	//On-Click functionality for Red
 	$('#gemRed').on ('click', function() {
 		score = score + gemOne;
-		console.log("New playerScore= " + score);
-
 		$('#finalPlayerScore').text(score);
 
 			if (score == rng) {
@@ -71,8 +69,6 @@ $(document).ready(function() {
 	//On-Click functionality for Blue
 	$('#gemBlue').on ('click', function() {
 		score = score + gemTwo;
-		console.log("New playerScore= " + score);
-
 		$('#finalPlayerScore').text(score);
 
 			if (score == rng) {
@@ -87,8 +83,6 @@ $(document).ready(function() {
 	//On-Click functionality for Yellow
 	$('#gemYellow').on ('click', function() {
 		score = score + gemThree;
-		console.log("New playerScore= " + score);
-
 		$('#finalPlayerScore').text(score);
 
 			if (score == rng) {
@@ -101,8 +95,6 @@ $(document).ready(function() {
 	//On-Click functionality for Green
 	$('#gemGreen').on ('click', function() {
 		score = score + gemFour;
-		console.log("New playerScore= " + score);
-
 		$('#finalPlayerScore').text(score);
 
 			if (score == rng) {
