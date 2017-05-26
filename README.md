@@ -1,6 +1,12 @@
 CHANGELOG
 Read from bottom to top.
 
+20170526
+
+STYLE.CSS: Added responiveness.
+
+INDEX.HTML: Cleaned up html.
+
 20170524
 
 IMAGES: Added gems and background.

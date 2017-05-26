@@ -8,27 +8,35 @@
 
 header {
 	text-align: center;
+	font-weight: bold;
+	background-color: #666666;
+	height: 125px;
 }
 
 footer {
 	text-align: center;
 	padding: 30px 0 0 0;
 	font-weight: bold;
+	background-color: #666666;
+	height: 125px;
 }
 
 h4 {
 	text-align: center;
 }
 
+div {
+	display: block;
+}
+
 /*Classes*/
 
 .myHeader {
-	background-color: #eeeeee;
-/*	margin: 0 0 75px 0;*/
+	padding: 25px 0 0 0;
 }
 
 .instructionsDiv {
-	padding: 100px 0 0 0;
+	padding: 75px 0 0 0;
 }
 
 .gemsDiv {
@@ -52,28 +60,31 @@ h4 {
 }
 
 .myFooter {
-	background-color: #eeeeee;
-	height: 75px;
-/*	margin: 75px 0 0 0;*/
+	padding: 25px 0 0 0;
 }
 
-.pageContent {
+.bodyContent {
 	background-color: #ffffff;
-	opacity: 0.75;
+	opacity: 0.7;
 	height: 600px;
 }
 
 .pageRow {
-
+	padding: 10px 0 0 10px;
 }
 
 /*Individual IDs*/
+
+#pageContent {
+	padding: 60px 0 0 0;
+}
 
 #backgroundSplash {
 	background-image: url(../images/background.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: 1170px 700px;
+	background-size: 2000px 1000px;
+	height: 725px;
 }
 
 #gemRed {
@@ -99,25 +110,67 @@ h4 {
 /*Media Queries*/
 
 @media screen and (max-width: 980px) {
-	
+
+	/*Classes*/
+	.bodyContent {
+
+	}
+
+	.instructionsDiv {
+
+	}
+
+	.pageRow {
+
+	}
+
+	/*Individual IDs*/
 	#backgroundSplash {
-		background-size: 750px 575px;
+		background-size: 980px 800px;
 	}
 
 }
 
 @media screen and (max-width: 768px) {
 	
+	/*Classes*/
+	.bodyContent {
+		padding: 10px 0px 10px 0px
+	}
+
+	.instructionsDiv {
+		padding: 50px 0px 0px 0px;
+	}
+
+	.pageRow {
+		padding: 10px 0px 10px 0px;
+	}
+
+	/*Individual IDs*/
 	#backgroundSplash {
-		background-size: 750px 575px;
+		background-size: 770px 750px;
 	}
 
 }
 
 @media screen and (max-width: 640px) {
 	
+	/*Classes*/
+	.bodyContent {
+		padding: 10px 0 20px 0;
+	}
+
+	.instructionsDiv {
+		padding: 0 0 0 0;
+	}
+
+	.pageRow {
+		padding: 2px 0px 2px 0px;
+	}
+
+	/*Individual IDs*/
 	#backgroundSplash {
-		background-size: 640px 575px;
+		background-size: 640px 750px;
 	}
 
 }

@@ -24,88 +24,92 @@
 <body>
 
 <!-- Header Div -->
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 myHeader">
-				<header>
-					<h3>Welcome to Crystal Master!</h3>
-				</header>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 myHeader">
+					<h2>Welcome to Crystal Master!</h2>
+				</div>
 			</div>
 		</div>
-	</div>
+	</header>
 
 	<!-- Background -->
 	<section id="backgroundSplash">
 
-		<div class="container pageContent">
+		<div id="pageContent">
 
-		<!-- Instructions -->
-			<div class="row pageRow">
-				<div class="col-xs-8 col-xs-offset-2 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 instructionsDiv">
-					<article id="instructions">
-						<h4>How to play</h4>
+			<div class="container bodyContent">
 
-						<p>There are four crystals which, when clicked, add a score to your total. Each crystal is assigned a random value at the start of each game.</p>
+			<!-- Instructions -->
+				<div class="row pageRow">
+					<div class="col-xs-8 col-xs-offset-2 col-sm-8 col-md-8 col-md-offset-1 col-lg-8 col-lg-offset-2 instructionsDiv">
+						<article id="instructions">
+							<h4>How to play</h4>
 
-						<p>You are given a random number at the start of the game which you must match in order to win.</p>
+							<p>There are four crystals which, when clicked, add a score to your total. Each crystal is assigned a random value at the start of each game.</p>
 
-						<p>Don't go too high! You will lose the game if your total score goes above the random number given to you at the start of the game.</p>
-					</article>
-				</div>
-			</div>
+							<p>You are given a random number at the start of the game which you must match in order to win.</p>
 
-		<!-- Red and Blue gem buttons -->
-			<div class="row pageRow">
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-lg-offset-2 gemsDiv">
-					<div class="gems">
-						<img src="./assets/images/red.png" id="gemRed">
-						<img src="./assets/images/blue.png" id="gemBlue">
+							<p>Don't go too high! You will lose the game if your total score goes above the random number given to you at the start of the game.</p>
+						</article>
 					</div>
 				</div>
 
-			<!-- Yellow and Green gem buttons -->
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-lg-offset-0 gemsDiv">
-					<div class="gems">
-						<img src="./assets/images/yellow.png" id="gemYellow">
-						<img src="./assets/images/green.png" id="gemGreen">
+			<!-- Red and Blue gem buttons -->
+				<div class="row pageRow">
+					<div class="col-xs-12 col-sm-4 col-sm-offset-2 col-md-6 col-lg-4 col-lg-offset-2 gemsDiv">
+						<div class="gems">
+							<img src="./assets/images/red.png" id="gemRed">
+							<img src="./assets/images/blue.png" id="gemBlue">
+						</div>
 					</div>
-				</div>
-			</div>
 
-		<!-- Random number score -->
-			<div class="row pageRow">
-				<div class="col-xs-3 col-xs-offset-3 col-sm-4 col-sm-offset-1 col-md-6 col-lg-4 col-lg-offset-2 rngDiv">
-					<div class="rngScore">
-						<h4>Score to Meet:</h4>
-							<span id="startScore"></span>
-					</div>
-				</div>
-
-			<!-- Current player score -->
-				<div class="col-xs-3 col-sm-4 col-sm-offset-1 col-md-6 col-lg-2 scoreDiv">
-					<div class="playerScore">
-						<h4>Player Score:</h4>
-							<span id="finalPlayerScore"></span>
-					</div>
-				</div>
-			</div>
-
-		<!-- Win counter -->
-			<div class="row pageRow">
-				<div class="col-xs-3 col-xs-offset-3 col-sm-4 col-sm-offset-1 col-md-6 col-lg-4 col-lg-offset-2 winDiv">
-					<div class="wins">
-						<h4>Wins:</h4>
-							<span id="winCount"></span>
+				<!-- Yellow and Green gem buttons -->
+					<div class="col-xs-12 col-sm-4 col-md-6 col-lg-4 col-lg-offset-0 gemsDiv">
+						<div class="gems">
+							<img src="./assets/images/yellow.png" id="gemYellow">
+							<img src="./assets/images/green.png" id="gemGreen">
+						</div>
 					</div>
 				</div>
 
-			<!-- Loss counter -->
-				<div class="col-xs-3 col-sm-4 col-sm-offset-1 col-md-6 col-lg-2 lossDiv">
-					<div class="losses">
-						<h4>Losses:</h4>
-							<span id="lossCount"></span>
+			<!-- Random number score -->
+				<div class="row pageRow">
+					<div class="col-xs-3 col-xs-offset-3 col-sm-5 col-sm-offset-1 col-md-6 col-lg-4 col-lg-offset-2 rngDiv">
+						<div class="rngScore">
+							<h4>Score to Meet:</h4>
+								<span id="startScore"></span>
+						</div>
+					</div>
+
+				<!-- Current player score -->
+					<div class="col-xs-3 col-sm-4 col-sm-offset-1 col-md-6 col-lg-2 scoreDiv">
+						<div class="playerScore">
+							<h4>Player Score:</h4>
+								<span id="finalPlayerScore"></span>
+						</div>
 					</div>
 				</div>
+
+			<!-- Win counter -->
+				<div class="row pageRow">
+					<div class="col-xs-3 col-xs-offset-3 col-sm-5 col-sm-offset-1 col-md-6 col-lg-4 col-lg-offset-2 winDiv">
+						<div class="wins">
+							<h4>Wins:</h4>
+								<span id="winCount"></span>
+						</div>
+					</div>
+
+				<!-- Loss counter -->
+					<div class="col-xs-3 col-sm-4 col-sm-offset-1 col-md-6 col-lg-2 lossDiv">
+						<div class="losses">
+							<h4>Losses:</h4>
+								<span id="lossCount"></span>
+						</div>
+					</div>
+				</div>
+
 			</div>
 
 		</div>
@@ -113,15 +117,15 @@
 	</section>
 
 <!-- Footer Div -->
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 myFooter">
-				<footer>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 myFooter">
 					© Copyright 2017 Jonathan Thompson
-				</footer>
+				</div>
 			</div>
 		</div>
-	</div>
+	</footer>
 
 </body>
 </html>
